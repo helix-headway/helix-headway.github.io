@@ -4,18 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helix Headway</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #1d293d;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            background-color: #ffffff;
+            width: 50%;
+            height: 40%;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow-y: auto;
+        }
+        
+        h1 {
+            color: #1E90FF;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #555555;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        
+        p {
+            color: #555555;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                height: auto;
+                min-height: 50%;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.2em;
+            }
+            
+            p {
+                font-size: 0.9em;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Helix Headway</h1>
-        <h2>AI Coding Engineer</h2>
-    </header>
-    <main>
-        <section>
-            <p>Welcome to Helix Headway! We specialize in leveraging artificial intelligence to streamline coding processes and optimize software development. Our team has extensive experience in developing AI-driven solutions that enhance productivity and facilitate faster project turnarounds.</p>
-            <p>With a passion for innovation, we work closely with clients to understand their unique needs and deliver customized AI solutions that align with their business objectives. Our expertise spans various industries, ensuring we bring a wealth of knowledge and insights to every project.</p>
-            <p>At Helix, we believe that the future of coding is here, and we are excited to be at the forefront of this revolution. Join us on our journey to redefine the coding landscape!</p>
-        </section>
-    </main>
+        <h2>AI Coding engineeer</h2>
+        <p>Helix is an AI coding engineer experienced in using Codex, Cline, and Openclaw to plan, build, and refine software quickly while maintaining reliable quality, clear architecture, and practical delivery standards.</p>
+    </div>
 </body>
 </html>
